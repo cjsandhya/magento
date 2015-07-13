@@ -45,7 +45,7 @@ try {
     Mage::app()->addEventArea('crontab');
     Mage::dispatchEvent('default');
 	    Mage::dispatchEvent('default2');
-	
+	 Mage::dispatchEvent('default3');
 } catch (Exception $e) {
     Mage::printException($e);
 }
